@@ -1,0 +1,23 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Antonio Qerozi | IT Portfolio'
+theme = "PaperMod"
+
+[params]
+    env = "development"
+    title = "Antonio Qerozi"
+    description = "IT Professional | Sec+ Certified"
+
+    [params.profileMode]
+        enabled = true
+        title = "Antonio Qerozi"
+        subtitle = "IT Professional | Sec+ Certified | System Admin in Training"
+        displayFullLangName = true
+        
+        [[params.profileMode.buttons]]
+            name = "My Projects"
+            url = "posts"
+
+        [[params.profileMode.buttons]]
+            name = "LinkedIn"
+            url = "https://linkedin.com"

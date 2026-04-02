@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Antonio Qerozi | IT Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Antonio Qerozi | IT Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2026 21:25:46 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Z640 Projects</title>
+      <link>http://localhost:1313/posts/z640-projects/</link>
+      <pubDate>Wed, 01 Apr 2026 21:25:46 -0400</pubDate>
+      <guid>http://localhost:1313/posts/z640-projects/</guid>
+      <description>&lt;h2 id=&#34;z640-home-lab-infrastructure&#34;&gt;Z640 Home Lab Infrastructure&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; Active | &lt;strong&gt;Role:&lt;/strong&gt; SysAdmin / Network Specialist&lt;/p&gt;
+&lt;h3 id=&#34;the-hardware&#34;&gt;The Hardware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chassis:&lt;/strong&gt; HP Z640 Workstation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OS:&lt;/strong&gt; Ubuntu Server 22.04 LTS (Headless)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connectivity:&lt;/strong&gt; SSH via OpenSSH Server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-implementation&#34;&gt;The Implementation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;OS Installation:&lt;/strong&gt; Automated PXE boot configuration for Ubuntu Server.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remote Access:&lt;/strong&gt; Configured SSH keys for secure, passwordless terminal access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtualization:&lt;/strong&gt; Deploying UTM virtual machines for isolated testing environments.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;the-objective&#34;&gt;The Objective&lt;/h3&gt;
+&lt;p&gt;To simulate a corporate infrastructure environment for testing security protocols and network configurations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
