@@ -23,11 +23,11 @@ theme = "PaperMod"
 
         [[params.profileMode.buttons]]
             name = "LinkedIn"
-            url = "https://linkedin.com/in/antonioqerozi/"
+            url = "https://www.linkedin.com/in/antonioqerozi/"
 
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/TonioQ"
     [[params.socialIcons]]
         name = "linkedin"
-        url = "https://linkedin.com/in/antonioqerozi/"
+        url = "https://www.linkedin.com/in/antonioqerozi/"
