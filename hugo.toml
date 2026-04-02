@@ -11,18 +11,24 @@ theme = "PaperMod"
 
     # DELETE [params.homeInfoParams] and its Title/Content lines entirely
 
-    [params.profileMode]
-        enabled = true
-        title = "Hi there 👋"
-        subtitle = "IT Professional | Sec+ | I document my Z640 Home Lab projects, Ubuntu Server configurations, and IT security research."
-        displayFullLangName = true
-        
-        [[params.profileMode.buttons]]
-            name = "My Projects"
-            url = "posts"
+[params.profileMode]
+    enabled = true
+    title = "Antonio Qerozi // Infrastructure"
+    subtitle = "Computer Science @ ODU | Sec+ Certified | Documenting the stack from the Z640 homelab up."
+    displayFullLangName = true
+    
+    # Add a professional photo (Save a square photo as 'profile.jpg' in your 'static' folder)
+    imageUrl = "ProfilePic.jpeg" 
+    imageTitle = "Antonio Qerozi"
+    imageWidth = 150
+    imageHeight = 150
 
-        [[params.profileMode.buttons]]
-            name = "LinkedIn"
+    [[params.profileMode.buttons]]
+        name = "📂 View Projects"
+        url = "posts"
+
+    [[params.profileMode.buttons]]
+        name = "🤝 LinkedIn"
             url = "https://www.linkedin.com/in/antonioqerozi/"
 
     [[params.socialIcons]]
