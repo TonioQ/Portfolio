@@ -1,12 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://portfolio-1vy.pages.dev/'
 languageCode = 'en-us'
 title = 'Antonio Qerozi | IT Portfolio'
 theme = "PaperMod"
 
 [params]
-    env = "development"
+    env = "production"
     title = "Antonio Qerozi"
-    description = "IT Professional | Sec+ Certified"
+    description = "Computer Science Graduate | IT Infrastructure & Security"
+    author = "Antonio Qerozi"
+
+    [params.homeInfoParams]
+        Title = "Hi there \U0001F44B"
+        Content = "Welcome to my portfolio. I document my Z640 Home Lab projects, Ubuntu Server configurations, and IT security research."
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/TonioQ"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/your-profile-url"
 
     [params.profileMode]
         enabled = true
