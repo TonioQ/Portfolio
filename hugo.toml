@@ -9,21 +9,12 @@ theme = "PaperMod"
     description = "Computer Science Graduate | IT Infrastructure & Security"
     author = "Antonio Qerozi"
 
-    [params.homeInfoParams]
-        Title = "Hi there \U0001F44B"
-        Content = "Welcome to my portfolio. I document my Z640 Home Lab projects, Ubuntu Server configurations, and IT security research."
-
-    [[params.socialIcons]]
-        name = "github"
-        url = "https://github.com/TonioQ"
-    [[params.socialIcons]]
-        name = "linkedin"
-        url = "https://linkedin.com/in/your-profile-url"
+    # DELETE [params.homeInfoParams] and its Title/Content lines entirely
 
     [params.profileMode]
         enabled = true
-        title = "Antonio Qerozi"
-        subtitle = "IT Professional | Sec+ Certified | System Admin in Training"
+        title = "Hi there 👋"
+        subtitle = "IT Professional | Sec+ | I document my Z640 Home Lab projects, Ubuntu Server configurations, and IT security research."
         displayFullLangName = true
         
         [[params.profileMode.buttons]]
@@ -32,4 +23,11 @@ theme = "PaperMod"
 
         [[params.profileMode.buttons]]
             name = "LinkedIn"
-            url = "https://linkedin.com"
+            url = "https://linkedin.com/in/antonioqerozi/"
+
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/TonioQ"
+    [[params.socialIcons]]
+        name = "linkedin"
+        url = "https://linkedin.com/in/antonioqerozi/"
