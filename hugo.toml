@@ -1,6 +1,6 @@
 baseURL = 'https://portfolio-1vy.pages.dev/'
 languageCode = 'en-us'
-title = 'Antonio Qerozi | IT Portfolio'
+title = 'AQ | Portfolio'
 theme = "PaperMod"
 
 [params]
@@ -9,12 +9,10 @@ theme = "PaperMod"
     description = "Computer Science Graduate | IT Infrastructure & Security"
     author = "Antonio Qerozi"
 
-    # DELETE [params.homeInfoParams] and its Title/Content lines entirely
-
 [params.profileMode]
     enabled = true
-    title = "Antonio Qerozi // Infrastructure"
-    subtitle = "Computer Science @ ODU | Sec+ Certified | Documenting the stack from the Z640 homelab up."
+    title = "Infrastructure & Security"
+    subtitle = "Leveraging a CS background to build resilient, documented systems. Bridging the gap between hardware performance and network security.
     displayFullLangName = true
     
     # Add a professional photo (Save a square photo as 'profile.jpg' in your 'static' folder)
